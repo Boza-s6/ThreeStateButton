@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ThreeStateButton">
+        <attr name="drawableInitial" format="reference"/>
+        <attr name="drawableClicked" format="reference"/>
+        <attr name="drawableUnclicked" format="reference"/>
+
+        <attr name="textInitial" format="string"/>
+        <attr name="textClicked" format="string"/>
+        <attr name="textUnClicked" format="string"/>
+
+        <attr name="textColorInitial" format="color"/>
+        <attr name="textColorClicked" format="color"/>
+        <attr name="textColorUnClicked" format="color"/>
+    </declare-styleable>
+</resources>
