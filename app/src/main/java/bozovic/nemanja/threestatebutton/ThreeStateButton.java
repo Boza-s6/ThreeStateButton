@@ -6,12 +6,13 @@ import android.content.res.TypedArray;
 import android.graphics.drawable.Drawable;
 import android.os.Build;
 import android.util.AttributeSet;
+import android.widget.Button;
 import android.widget.ToggleButton;
 
 /**
  * Created by nemanja on 10/20/15.
  */
-public class ThreeStateButton extends ToggleButton {
+public class ThreeStateButton extends Button {
     private Drawable mInitial;
     private Drawable mClicked;
     private Drawable mUnclicked;
